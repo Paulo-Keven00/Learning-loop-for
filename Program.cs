@@ -4,7 +4,7 @@ class Program
 {
     static void Main(string[] args)
     {
-        Licao10();
+        Licao9();
     }
     static void Licao1()
     {
@@ -117,13 +117,9 @@ class Program
     }
     static void Licao9()
     {
-        int n,z;
-
-        n = 81;
-
-        for(z=35 ;z < n; z++)
+        for(int i = 0, n = 10; i < n; i++, n--)
         {
-            Console.Write($"{z}, ");
+            Console.Write($" i = {i}, n = {n}");
         }
 
     }
