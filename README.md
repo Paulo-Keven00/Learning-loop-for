@@ -1,1 +1,1 @@
-# Learning-loop-for
+Exercises from the CHATgpt generete to learn about the loop for on C#
